@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+i, svg{
+    pointer-events: none;
+}
+
+/** SEQUENCER */
+.sequencer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto;
+    min-height: 100vh;
+}
+
+/** TRACKS CONTAINER*/
+.kick-container,
+.snare-container,
+.hihat-container,
+.perc-container, 
+.tom-container,
+.clap-container,
+.crash-container,
+.cowbell-container,
+.openhat-container,
+.shaker-container,
+.ride-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 72%;
+    margin: 1.3rem auto;
+}
+
+.kick,
+.snare,
+.hihat,
+.perc,
+.tom,
+.clap,
+.crash,
+.cowbell,
+.openhat,
+.shaker,
+.ride{
+    display: flex;
+}
+
+/** PADS  */
+.kick-pad,
+.snare-pad,
+.hihat-pad,
+.perc-pad, 
+.tom-pad,
+.clap-pad,
+.crash-pad,
+.cowbell-pad,
+.openhat-pad,
+.shaker-pad,
+.ride-pad{
+    width: 70px;
+    height: 70px;
+    margin: 1rem 1rem;
+    cursor: pointer;
+}
+
+/** PADS COLOR */
+.kick-pad {
+    background-color: rgb(211, 151, 151);
+}
+
+.snare-pad {
+    background-color: rgb(145, 145, 197);
+}
+
+.hihat-pad{
+    background-color: rgb(139, 196, 139);
+}
+
+.perc-pad {
+    background-color: rgb(219, 219, 112);
+}
+
+.tom-pad {
+    background-color: rgb(109, 84, 84);
+}
+
+.clap-pad {
+    background-color: rgb(187, 131, 91);
+}
+
+.crash-pad {
+    background-color: rgb(109, 97, 121);
+}
+
+.cowbell-pad {
+    background-color: rgb(238, 201, 153);
+}
+
+.openhat-pad {
+    background-color: rgb(95, 41, 76);
+}
+
+.shaker-pad {
+    background-color: rgb(238, 226, 119);
+}
+
+.ride-pad {
+    background-color: rgb(148, 187, 70);
+}
+
+.pad{
+    transition: all 0.5s ease;
+}
+
+/** ACTIVE */
+.kick-pad.active {
+    background-color: rgb(221, 41, 41);
+}
+
+.snare-pad.active {
+    background-color: rgb(70, 70, 209);
+}
+
+.hihat-pad.active{
+    background-color: rgb(54, 218, 54);
+}
+
+.perc-pad.active {
+    background-color: rgb(230, 230, 59);
+}
+
+.tom-pad.active {
+    background-color: rgb(158, 74, 74);
+}
+
+.clap-pad.active {
+    background-color: rgb(206, 116, 52);
+}
+
+.crash-pad.active {
+    background-color: rgb(129, 71, 187);
+}
+
+.cowbell-pad.active {
+    background-color: rgb(238, 163, 64);
+}
+
+.openhat-pad.active {
+    background-color: rgba(255, 0, 166, 0.822);
+}
+
+.shaker-pad.active {
+    background-color: rgb(221, 203, 43);
+}
+
+.ride-pad.active {
+    background-color: rgb(162, 226, 32);
+}
+
+/** CONTROLS */
+.controls {
+    display: flex;
+    gap: 30px;
+    flex: 1;
+}
+
+.mute {
+    margin: 0 1rem;
+    width: 44px;
+    background-color: grey;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.mute.active {
+    background-color: rgb(236, 236, 236);
+}
+
+select {
+    padding: 1rem 0.8rem;
+    font-size: 1rem;
+    margin: 0 1.2rem;
+    border-radius: 40px;
+}
+
+option {
+    font-size: 1.1rem;
+}
+
+/** PLAY BTN  */
+.play-btn {
+    background-color: grey;
+    color: #fff;
+    font-size: 1.4rem;
+    margin: 2rem auto;
+    padding: 1.1rem 1.4rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/** TEMPO */
+.tempo {
+    margin: 3rem;
+    width: 30%;
+}
+
+.tempo-slider {
+    padding: 1px;
+    -webkit-appearance: none;
+    margin: 1rem 0rem;
+    width: 100%;
+    position: relative;
+    background: grey;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 1rem;
+}
+
+.tempo p {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+/** Pads Animation */
+@keyframes playTrack {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
