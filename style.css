@@ -238,6 +238,11 @@ option {
     font-weight: bold;
 }
 
+/** Something else */
+.text {
+    display: none;
+}
+
 /** Pads Animation */
 @keyframes playTrack {
     from{
@@ -245,5 +250,20 @@ option {
     }
     to{
         transform: scale(1.2);
+    }
+}
+
+
+@media (max-width: 500px) {
+    .sequencer{
+        display: none;
+    }
+    .text {
+        display: flex;
+        font-size: 2rem;
+        align-items: center;
+        margin: 2rem 1rem;
+        justify-content: center;
+        width: 70%;
     }
 }
