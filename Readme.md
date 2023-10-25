@@ -5,7 +5,7 @@ Beatmaker Web App README
 ![Beatmaker_img_01](Beatmaker01.png)
 ![Beatmaker_img_02](Beatmaker02.png)
 
-## Introduction
+# Introduction
 
 Welcome to this simple beatmaker web app i created with HTML, CSS & Javascript.
 You can view the app live at: https://hallowdread.github.io/beatmaker/
