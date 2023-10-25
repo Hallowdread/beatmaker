@@ -49,7 +49,7 @@ open index.html
 
 With this process the app should now be up and running on your local machine.
 
-# Useage:
+# Usage:
 
 - Launch the application by opening the index.html file.
 
@@ -71,4 +71,4 @@ I welcome contributions to improve and expand this project. If you'd like to con
 
 - Submit a pull request to the main repository.
 
-# Thank You....
+Thank You....
