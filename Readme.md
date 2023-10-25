@@ -38,7 +38,7 @@ git clone https://github.com/yourusername/beatmaker.git
 2. Navigate to the project directory:
 
 ```
-cd beatmaker-web-app
+cd beatmaker
 ```
 
 3. Open the index.html file in your preferred web browser:
