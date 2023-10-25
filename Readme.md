@@ -12,11 +12,11 @@ You can view the app live at: https://hallowdread.github.io/beatmaker/
 
 # Features:
 
-- \*\* The app create beats using a user-friendly and responsive beat editor.
+- The app create beats using a user-friendly and responsive beat editor.
 
-- \*\* Ability to mix and preview your beats in real-time.
+- Ability to mix and preview your beats in real-time.
 
-- \*\* Adjust the tempo to your desired taste.
+- Adjust the tempo to your desired taste.
 
 # Prerequisites:
 
@@ -31,23 +31,44 @@ To run the Beatmaker Web App locally, follow these steps:
 
 1. Clone the repository to your local machine:
 
-````bash
+```bash
 git clone https://github.com/yourusername/beatmaker.git
+```
 
 2. Navigate to the project directory:
 
 ```bash
-cd beatmaker
+cd beatmaker-web-app
+```
 
 3. Open the index.html file in your preferred web browser:
+
 ```bash
 open index.html
+```
 
+With this process the app should now be up and running on your local machine.
 
+# Useage:
 
+- Launch the application by opening the index.html file.
 
+- Use the intuitive beatmaker to create your beats by clicking on the color pads.
 
+- Adjust the tempo to your suitable taste.
 
+- Preview and mix your beats in real-time.
 
+# Contributing:
 
-````
+I welcome contributions to improve and expand this project. If you'd like to contribute, please follow these steps:
+
+- Fork the repository
+
+- Create a new branch for your feature or bug fix.
+
+- Make your changes, commit them, and push to your fork.
+
+- Submit a pull request to the main repository.
+
+# Thank You....
