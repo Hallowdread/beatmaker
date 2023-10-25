@@ -8,7 +8,10 @@ Beatmaker Web App README
 # Introduction
 
 Welcome to this simple beatmaker web app i created with HTML, CSS & Javascript.
-You can view the app live at: https://hallowdread.github.io/beatmaker/
+
+- By clicking on the pads and the play button you can create your beats.
+
+- You can view the app live at: https://hallowdread.github.io/beatmaker/
 
 # Features:
 
