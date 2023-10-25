@@ -55,6 +55,10 @@ With this process the app should now be up and running on your local machine.
 
 - Use the intuitive beatmaker to create your beats by clicking on the color pads.
 
+- The active (the pad that brings out the sound) pad diplays a brighter color when clicked on.
+
+- The you can hear your sounds by clicking the play button below and if you want to stop the sound you can also click the same button.
+
 - Adjust the tempo to your suitable taste.
 
 - Preview and mix your beats in real-time.
