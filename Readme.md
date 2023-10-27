@@ -1,4 +1,4 @@
-# README beatmaker
+# beatmaker
 
 Beatmaker Web App README
 
